@@ -1,0 +1,26 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v1.3.13
+_src_path: gh:stellarshenson/copier-data-science
+author_name: Taylor Boes
+claude_md: 'No'
+custom_config: ''
+dataset_storage: local
+dependency_file: pyproject.toml
+description: Surrogate modelling based on Landis-II outputs
+docker_support: 'No'
+docs: mkdocs
+env_encryption: 'Yes'
+env_name: good-fire-ml
+environment_manager: uv
+git_init: 'No'
+github_actions: 'No'
+jupyter_kernel_support: 'Yes'
+linting_and_formatting: ruff
+module_name: lib_good_fire_ml
+open_source_license: No license file
+package_repository: 'No'
+pydata_packages: basic
+python_version_choice: '3.14'
+repo_name: good-fire-ml
+scaffold_ai: 'No'
+testing_framework: pytest

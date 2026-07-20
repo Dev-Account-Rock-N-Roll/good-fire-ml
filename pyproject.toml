@@ -25,6 +25,7 @@ dependencies = [
     "pandas",
     "rasterio",
     "scikit-learn",
+    "pylabtools>=2.0.1b0",
 ]
 
 [project.optional-dependencies]
@@ -62,3 +63,8 @@ extend-select = ["I"]
 [tool.ruff.lint.isort]
 known-first-party = ["lib_good_fire_ml"]
 force-sort-within-sections = true
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]

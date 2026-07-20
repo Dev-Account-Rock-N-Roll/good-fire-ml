@@ -67,4 +67,6 @@ force-sort-within-sections = true
 [dependency-groups]
 dev = [
     "ipykernel>=7.3.0",
+    "pytest>=9.1.1",
+    "ruff>=0.15.22",
 ]

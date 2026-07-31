@@ -26,6 +26,7 @@ dependencies = [
     "rasterio",
     "scikit-learn",
     "pylabtools>=2.0.1b0",
+    "pyprojroot>=0.3.0",
 ]
 
 [project.optional-dependencies]

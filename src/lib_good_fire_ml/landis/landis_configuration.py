@@ -28,7 +28,7 @@ class LandisConfigurationFile:
             with open(target_file, "rb") as f:
                 file_content = f.read()
                 file_encoding = chardet.detect(file_content)["encoding"]
-                print(f"Reading configuration from: {target_file}. File encoding: {file_encoding}")
+                # print(f"Reading configuration from: {target_file}. File encoding: {file_encoding}")
                 decoded_content = file_content.decode(file_encoding)
                 non_comment_lines = [
                     line

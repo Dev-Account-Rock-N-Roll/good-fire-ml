@@ -25,7 +25,7 @@ class LandisRun:
         self, scenario_file: LandisConfigurationFile, input_file_dictionary: dict, layer=0
     ):
         """Recursively parses configuration dictionary to handle nested config files."""
-        print(f"Parsing layer {layer} with related files: {scenario_file.related_input_files}")
+        # print(f"Parsing layer {layer} with related files: {scenario_file.related_input_files}")
         for input_file in scenario_file.related_input_files:
             if input_file.endswith(".txt") and input_file not in input_file_dictionary:
                 nested_config = LandisConfigurationFile(self.path, input_file)

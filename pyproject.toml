@@ -26,6 +26,7 @@ dependencies = [
     "rasterio",
     "scikit-learn",
     "pylabtools>=2.0.1b0",
+    "chardet>=7.4.3",
 ]
 
 [project.optional-dependencies]
